@@ -1,0 +1,107 @@
+body{
+    background-color: lightblue;
+}
+
+.green {
+    height: 300px;
+    width: 500px;
+    background-color: green;
+    margin: auto;
+}
+
+.white {
+    height: 300px;
+    width: 200px;
+    background-color: white;
+    margin: auto;
+}
+
+.japanwhite {
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.japanred {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+.germanyred {
+    height: 400px;
+    width: 800px;
+    background-color: red;
+    margin: auto;
+    /* padding: 40px; */
+    margin-top: 20px;
+}
+
+.germanyblack {
+    background-color: black;
+    height: 140px;
+    width: 800px;
+    /* margin: auto; */
+    margin-bottom: 120px;
+    /* margin-right: 300px;    */
+}
+
+.germanyyellow {
+    background-color: yellow;
+    height: 140px;
+    width: 800px;
+    /* margin: auto; */
+    /* margin-right: 300px; */
+    margin-top: 20px;
+}
+
+.finlandwhite {
+    background-color: white;
+    height: 300px;
+    width: 700px;
+    margin: auto;
+    /*paddind:30px; */
+}
+
+.finlandverticalblue {
+    height: 300px;
+    width: 100px;
+    background-color: blue;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.finlandblue {
+    background-color: blue;
+    width: 700px;
+    height: 100px;
+    margin-top: -200px;
+    /* margin: center; */
+}
+
+.Maldivesred {
+    background-color: red;
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.Maldivesgreen {
+    background-color: green;
+    height: 250px;
+    width: 450px;
+   /* margin: auto; */
+    margin-top: 80px;
+    margin-left: 75px;
+    position: absolute;
+}
+

@@ -1,0 +1,8 @@
+#Container{
+    display: inline-grid;
+    background: lightgreen;
+}
+.item{
+    background: lightcoral;
+    padding: 30px;
+}

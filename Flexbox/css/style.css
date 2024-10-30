@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #1A202c;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.link{
+    color: #0603ac;
+    text-decoration: none;
+    display: inline-block;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.Login-wrapper{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+.Login-wrapper .box-col{
+    width: 50%;
+    height: 100px;
+    position: relative;
+}
+.Login-wrapper .box-col img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover ;
+    position: relative;
+}
+.Login-wrapper .box-form{
+    padding: 20px;
+    display: flex;
+    height: 100px;
+}
+.Login-wrapper .inner{
+    max-width: 450px;
+}
+.form-head .title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1A202c;
+    text-align: right;
+}
+.Form-wrap{
+    margin-bottom: 10px;
+}
+.Form-wrap .form-control{
+    width: 750px;
+    height: 50px;
+    padding: 7px 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid silver;
+}
+.Form-wrap .form-control:focus{
+    border-bottom: 3px solid silver;
+}
+::placeholder{
+    font-weight: 500;
+    color: black;
+}
+.btn{
+    width: 150%;
+    height: 40px;
+    font-size: 20px;
+    border: 0px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color: black;
+    text-transform: capitalize;
+    font-weight: normal;
+    color: white;
+    border-radius: 1px;
+}
+.btn:hover{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+
+}
+.check{
+    margin-right: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+@media (max-width:450px){
+    .box-image {
+        display: none;
+    }
+    .form-control{
+        max-width: 300px;
+    }
+    .btn{
+        max-width: 250px;
+    }
+    .form-head .title {
+        font-size: 10px;
+        text-align: center;
+    }
+    .box-form{
+        justify-content: space-around;
+    }
+}

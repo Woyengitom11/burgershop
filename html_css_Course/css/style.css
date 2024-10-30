@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    font-family: sans-serif;
+    background-image: url(../../Pictures/Suuuper/wp7698530.jpg);
+    background-size: cover;
+}
+.wrapper{
+    margin: auto;
+    width: 500px;
+    max-width: 90%;
+}
+.wrapper form{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: powderblue;
+}
+.wrapper form h1{
+    text-align: center;
+    margin-bottom: 23px;
+    color: black;
+}
+.wrapper form h3{
+    text-align: center;
+    margin-bottom: 23px;
+    color: black;
+}
+.input-box .form-control{
+    width: 100%;
+    height: 40px;
+    background: white;
+    border-radius: 40px;
+    border: 1px solid silver;
+    margin: 10px 0 18px 0;
+    padding: 0 10px;
+}
+::placeholder{
+    font-weight: 500;
+    color: black;
+}
+.wrapper form .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    align-items: center;
+    font-size: 14px;
+    color: gray;
+}
+#check{
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+section a{
+    color: gray;
+}
+.Login{
+    margin-top: 20px;
+}
+.Login .btn-submit{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    border: 0px;
+    background-color: black;
+    text-transform: capitalize;
+    font-weight: normal;
+    color: white;
+    border-radius: 40px;
+}
+.Login .btn-submit:hover{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+.Login .btn-google-submit{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    border: 0px;
+    text-transform: capitalize;
+    background-color: powderblue;
+    font-weight: normal;
+    color: black;
+    border-radius: 40px;
+    margin-top: 5px;
+}
+.Login .btn-google-submit:hover{
+    background-color: black;
+    color: gray;
+    cursor: pointer;
+}
